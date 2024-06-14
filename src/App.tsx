@@ -29,7 +29,7 @@ function App() {
         
     <Authenticator>
       {({ signOut, user }) => (
-      {({ signOut }) => (
+      //{({ signOut }) => (
     <main>
       <h1>{user?.signInDetails?.loginId}'s todos</h1>
       
